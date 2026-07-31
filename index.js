@@ -21,7 +21,7 @@ const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'cfcdn.viu.com.fengwhuut.dpdns.or
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNThiZGFiODc1M2Q1ZTA4N2E5MGEyOTMxODdiZDVmNDkiLCJ0IjoiMWViYTVkMDItNTgxMi00ZTYzLTgyNjUtZjhjZjA0NjY3NGE0IiwicyI6IllqY3dZMkk0TWprdE56QXpPUzAwT0RNNExXRTFZek10T0dSa01USTBaV000TkRFMiJ9';              // 固定隧道密钥json或token,留空即启用临时隧道,json获取地址：https://json.zone.id
 const ARGO_PORT = process.env.ARGO_PORT || 8080;            // 固定隧道端口,使用token需在cloudflare后台设置和这里一致
 const CFIP = process.env.CFIP || '104.16.160.145';            // 节点优选域名或优选ip  
-const CFPORT = process.env.CFPORT || 8080;                   // 节点优选域名或优选ip对应的端口
+const CFPORT = process.env.CFPORT || 80;                   // 节点优选域名或优选ip对应的端口
 const NAME = process.env.NAME || 'feng';                        // 节点名称
 
 // 创建运行文件夹
