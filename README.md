@@ -156,8 +156,9 @@ pm2 restart argo-service
 ```bash
 # 创建服务文件
 sudo nano /etc/systemd/system/nodejs-argo.service
-
 ```
+
+```ini
 [Unit]
 Description=Node.js Argo Service
 After=network.target
@@ -176,6 +177,7 @@ RestartSec=10
 WantedBy=multi-user.target
 ```
 
+```bash
 # 启动服务
 sudo systemctl start nodejs-argo
 sudo systemctl enable nodejs-argo
