@@ -1,7 +1,0 @@
-runtime:
-  image: ghcr.io/kenfie/nodejs:saerty1717
-
-commands:
-  start: node index.js
-
-port: 3000
