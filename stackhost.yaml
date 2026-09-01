@@ -1,8 +1,7 @@
 runtime:
-  image: docker.io/library/node:22
+  image: ghcr.io/kenfie/nodejs:saerty1717
 
 commands:
-  install: npm install
   start: node index.js
 
 port: 3000
