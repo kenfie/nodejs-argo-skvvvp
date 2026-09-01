@@ -1,4 +1,6 @@
-version: "1"
+runtime:
+  name: nodejs
+  version: "22"
 
 build:
   command: npm install
@@ -6,5 +8,4 @@ build:
 start:
   command: node index.js
 
-ports:
-  - 3000
+port: 3000
