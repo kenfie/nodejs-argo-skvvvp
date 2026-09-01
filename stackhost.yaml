@@ -1,6 +1,5 @@
 runtime:
-  name: nodejs
-  version: "22"
+  image: docker.io/library/node:22
 
 build:
   command: npm install
