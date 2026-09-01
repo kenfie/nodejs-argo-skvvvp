@@ -2,7 +2,7 @@ runtime:
   image: docker.io/library/node:22
 
 commands:
-  - npm install
-  - node index.js
+  install: npm install
+  start: node index.js
 
 port: 3000
